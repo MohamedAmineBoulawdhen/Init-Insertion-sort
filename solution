@@ -1,15 +1,15 @@
 procedure insertionSort( A : array of items )
-   int holePosition
-   int valueToInsert
+holePosition:INTIGER
+valueToInsert:INTIGER
 	
    for i from 1 to A.length-1 step 1 do
-      valueToInsert = A[i]
-      holePosition = i
+      valueToInsert := A[i]
+      holePosition := i
       while holePosition > 0 and A[holePosition-1] > valueToInsert do:
-         A[holePosition] = A[holePosition-1]
-         holePosition = holePosition -1
+         A[holePosition] := A[holePosition-1]
+         holePosition := holePosition -1
       end while
-      A[holePosition] = valueToInsert
+      A[holePosition] := valueToInsert
    end for
 	
 end procedure
