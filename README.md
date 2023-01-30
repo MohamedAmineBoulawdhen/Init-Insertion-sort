@@ -12,7 +12,7 @@ This is done by shifting elements to the right until the proper position is foun
 ## Instructions
 - Each time work only with the first i-1 element from of the array.
 - Pick element arr[i] and insert it into sorted sequence in the array from 0 to i-1.
-`def insertion_sort(arr):
+   `def insertion_sort(arr):
 for i in range(1, len(arr)):
 key = arr[i]
 j = i-1
