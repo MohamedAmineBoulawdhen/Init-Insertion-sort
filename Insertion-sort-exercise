@@ -12,4 +12,4 @@ valueToInsert:INTIGER
       A[holePosition] := valueToInsert
    end for
 	
-end procedure
+end procedure 
