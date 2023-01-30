@@ -10,8 +10,17 @@ Then, for each subsequent element in the list, the algorithm inserts the element
 This is done by shifting elements to the right until the proper position is found. The process continues until the entire list is sorted.
 
 ## Instructions
-1- Each time work only with the first i-1 element from of the array
-2- Pick element arr[i] and insert it into sorted sequence in the array from 0 to i-1.
+- Each time work only with the first i-1 element from of the array.
+- Pick element arr[i] and insert it into sorted sequence in the array from 0 to i-1.
+`def insertion_sort(arr):
+for i in range(1, len(arr)):
+key = arr[i]
+j = i-1
+while j >= 0 and key < arr[j]:
+arr[j+1] = arr[j]
+j -= 1
+arr[j+1] = key
+return arr`
 
 ## Time Complexity
 
