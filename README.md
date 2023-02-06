@@ -23,5 +23,4 @@ However, the algorithm is efficient for small lists and has the advantage of bei
 
 Insertion sort is a simple and straightforward sorting algorithm that is easy to understand and implement. 
 It is not efficient for large lists, but it is a good algorithm to understand and use as a building block for more advanced sorting algorithms.
----
-Don't forget to star this repository ⭐️ after you've finished the project. Your support is greatly appreciated!
+
